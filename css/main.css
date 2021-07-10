@@ -1,0 +1,200 @@
+body {
+    /* couleur du fond */
+    background-color:lavender;
+    /* position du fond */
+    background-position: top;
+    /* taille du fond */
+    background-size: 200px 70px;
+    /* largeur : le contenu de "body" prend 80% de la page */
+    width: 80%;
+}
+
+section{
+    background-color:mistyrose;
+    /* définition des coins arrondis pour la bordure d'un élément. */
+    border-radius: 20px;
+    /* style et couleur de la bordure */
+    outline-style: ridge;
+    outline-color:palegoldenrod;
+    /* définition de la marge externe (de gauche et de droite) */
+    margin-left: 120px;
+    margin-right: 20px;
+}
+
+header, nav, h3, footer{
+    /* alignement du texte */
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    /* définition de la proprité position "relative" : la propriété de position calculée est relative. */
+    position: relative;
+}
+
+h2, h4{
+    color: slategrey;
+}
+
+h2:hover{
+    color:teal;
+}
+
+h3{
+    /* la taille de police */
+    font-size: x-large;
+}
+
+ul{
+    /* style du marqueur : carré */
+    list-style-type:square;
+    /* définition de la position du marqueur : dedans (opposé à "outside") */
+    list-style-position: inside;
+    /* affichage spécifique "block" de display : prend toute la largeur disponible au sein de son élément parent (ou élément conteneur).  */
+    display: block;
+}
+
+li{
+    color: gray;
+    font-size: large;
+}
+
+p{
+    /* définition de la marge externe interne (de gauche et de droite) */
+    padding-left: 2cm;
+    padding-right: 2cm;
+    /* largeur : adapté à la largeur */
+    width: fit-content;
+    font-size: large;
+}
+
+fieldset{
+    display: block;
+    /* border: définition des coins : largeur, style et couleur */
+    border: 2px solid rosybrown;
+    border-radius: 20px 30px;
+    height: auto;
+    width: 75%;
+}
+
+label {
+    /* padding :définition de la marge interne : haut, droite, bas, gauche */
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=text], input[type=url],input[type=date],input[type=number],select, textarea {
+    font-size: medium;
+    width: 30%;
+    padding: 9px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* box-sizing: définition de la hauteur et la largeur totale  */
+    /* border-box : prendre en compte la bordure et le remplissage dans la valeur définie pour la largeur et la hauteur */
+    box-sizing: border-box;
+}
+   
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    /* cursor : définition de la forme du curseur  */
+    /* pointer : pointeur qui indique un lien, généralement c'est une main */
+    cursor: pointer;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    /* float (left) : l'élément doit flotter du côté gauche du bloc qui le contient */
+    float: left;
+    /* width/height (20%): la largeur et la hauteur qui prend 20% de l'image originale */
+    width: 20%;
+    height: 20%;
+}
+
+table tr th, table tr td{
+    border:1px solid #000000;
+    /* border-collapse :le modèle des bordures séparées doit être utilisé */
+    border-collapse: separate;
+    width: 200px; 
+    /* min-height : la hauteur minimale  */
+    min-height: 25px; 
+    /* line-height : la hauteur de la boîte d'une ligne */
+    line-height: 25px; 
+    text-align: center; 
+}
+
+/* les liens hypertextes */
+a:link{
+    color: teal;
+}
+
+/* les liens déjà visités */
+a:visited{
+    color:darkgoldenrod;
+}
+
+/* le comportement des liens quand on les pointe */
+a:hover{
+    color: steelblue;
+}
+
+/* le comportement des liens qu'on les clique */
+a:active{
+    color: yellowgreen;
+}
+
+/*  sélecteurs de type 'class' */
+.gauche{
+    margin-left: 30px;
+    text-align: left;
+}
+
+.droite{
+    margin-left: 30px;
+    text-align: right;
+}
+
+.froid{
+    font-size:larger;
+    color:teal;
+    /* font-family: mettre en forme par la police et les proprités */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.chaud{
+    font-size: large;
+    color: indianred;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.italic{
+    font-size: 130%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic; 
+}
+
+.centre{
+    text-align: center;
+}
+
+.rouge{
+    color: red;
+}
+
+
+
+
+    
