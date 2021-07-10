@@ -18,6 +18,6 @@ Vous pouvez trouver plus de détails dans le [cahier des charges](cahier_Qi_WANG
 
 3. Ouvrir Finder, trouver le répertoire htdocs en suivant le chemin `/Applications/MAMP/htdocs`, importer tous les fichiers du travail.
 
-4. Aller sur [PHPMyadmin](http://localhost:8888/phpMyAdmin/?lang=en), importez la base de données, [`login`](login.sql) et [`projet_final`](projet_final.sql).
+4. Aller sur [PHPMyAdmin](http://localhost:8888/phpMyAdmin/?lang=en), importez la base de données, [`login`](login.sql) et [`projet_final`](projet_final.sql).
 
 5. Revenir sur [le serveur](http://localhost:8888/), vous pouvez désormais trouver le travail et visualiser le site web. 
